@@ -1,0 +1,13 @@
+version:"3"
+
+services:
+dev:
+container_name:my-name
+image:my-img
+bulid:
+context: .
+dockerfile:Dockerfile
+ports:
+* "8080:8080"
+volume:
+* ./:/
